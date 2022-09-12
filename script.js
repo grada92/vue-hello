@@ -1,5 +1,5 @@
 console.log('JS OK')
-
+// inizializzo Vue
 const root = new Vue({
 
     el: '#root',
