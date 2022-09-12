@@ -10,10 +10,17 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
     <title>Document</title>
 </head>
 <body>
-    
+    <div id="root">
+        <h1> {{ titletext }} </h1>
+
+        <!--BONUS aggiungi immagini da Vue-->
+        <img :src="image" alt="image">
+
+
+    </div>
 </body>
 </html>
